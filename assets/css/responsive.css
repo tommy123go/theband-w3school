@@ -1,0 +1,127 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+
+/* Tablet & Mobile */
+
+@media (max-width: 63.9375em) {
+    #content .place-buy-btn {
+        padding: 15px 16px;
+    }
+    
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        padding: 0 8px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    p.copyright {
+        padding: 15px 0;
+    }
+
+}
+    
+/* Tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-section {
+        padding: 64px 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+   
+    #nav {
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child  {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 4px 38px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    
+    
+    #header .mobile-menu-btn .menu-icon{
+        font-size: 18px;
+        line-height: 46px;
+        color: #fff;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .member-name {
+        margin: 16px 0;
+    }
+
+    #content .place-list {
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    #content .contact-info {
+        margin-bottom: 16px;
+        padding: 0 16px;
+    }
+
+    #content .contact-form {
+        padding: 0 32px;
+       
+    }
+
+
+}
+    
+    
+
+
